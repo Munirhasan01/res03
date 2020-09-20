@@ -1,0 +1,673 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Catamaran', sans-serif;
+}
+
+p,input,a{
+	font-family: 'Mulish', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6,p,input{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100;200;300;400;500;531;600;700;800;900&family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,577;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+/*font-family: 'Catamaran', sans-serif;
+font-family: 'Mulish', sans-serif;*/
+
+
+.header{
+	background-image: url(solved01.png);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 130vh;
+}
+
+.nav-link{
+	font-family: 'Mulish', sans-serif !important;
+	color: white !important;
+	font-size: 12px !important;
+	transition: all 0.5s ease-in-out !important;
+}
+
+.nav-link:hover{
+	color: black !important;
+	transition: all 0.5s ease-in-out !important;
+}
+
+.nav-item{
+	margin-left: 10px;
+}
+
+.navbar-nav{
+	margin-right: 40px !important;
+}
+.banner-title{
+	text-align: center;
+}
+
+.banner-title h5{
+	font-family: 'Catamaran', sans-serif;
+	font-weight: bold;
+	color: #80a9c9;
+	margin-top: 65px;
+}
+
+.header-button{
+	margin-top: 330px;
+	text-align: center;
+	font-family: 'Mulish', sans-serif;
+	color: #cdd9e4;
+}
+
+.header-button p{
+	
+	margin: 0 auto;
+	width: 65%;
+	text-align: left;
+}
+
+.header-button button{
+	margin-top: 20px;
+	margin-right: 240px;
+	padding: 12px 30px;
+	background-color: #ff690f;
+	color: white;
+	font-family: 'Mulish', sans-serif;
+	border: none;
+	border: 2px solid #ff690f;
+	border-radius: 5px;
+	font-weight: bold;
+	font-size: 14px;
+	transition: all 0.5s ease-in-out ;
+}
+
+.header-button button:hover{
+	transition: all 0.5s ease-in-out ;
+	background: transparent;
+}
+
+
+
+
+/**********************/
+/*body-01 start here */
+/**********************/
+
+.body-01{
+	width: 100%;
+	padding: 70px 0px;
+}
+
+
+.body-01-header{
+	text-align: center;
+}
+
+.body-01-img{
+	text-align: center;
+	
+}
+
+.body-01-img img{
+	margin-top: 100px;
+}
+.body-01-img p{
+	margin-top: 30px;
+	font-size: 12px;
+}
+
+.body-01-img h6{
+	font-weight: 800;
+	width: 70%;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+
+
+
+.body-01-header h1{
+	font-weight: 900;
+	color: #2f2f2f;
+	margin-top: 50px;
+}
+
+.body-01-header p{
+	color: #686868;
+	width: 75%;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+
+
+.body-01-img button{
+	margin-top: 15px;
+	
+	padding: 12px 20px;
+	background-color: #ff690f;
+	color: white;
+	font-family: 'Mulish', sans-serif;
+	border: none;
+	border: 2px solid #ff690f;
+	border-radius: 5px;
+	font-weight: bold;
+	font-size: 12px;
+	transition: all 0.5s ease-in-out ;
+}
+
+.body-01-img button:hover{
+	transition: all 0.5s ease-in-out ;
+	background: transparent;
+	color: #ff690f;
+}
+/**********************/
+/*body-01 end here */
+/**********************/
+
+
+
+
+
+
+
+
+
+
+/**********************/
+/*body-02 start here */
+/**********************/
+.body-02{
+	width: 100%;
+	padding: 60px 0px;
+}
+
+
+/**********************/
+/*body-02 end here */
+/**********************/
+
+
+
+/**********************/
+/*body-03 start here */
+/**********************/
+.body-03{
+	width: 100%;
+	padding: 70px 0px;
+}
+
+.body-03-header{
+	text-align: center;
+}
+
+.body-03-header h2{
+	font-weight: 900;
+	color: #2f2f2f;
+}
+
+
+
+.body-03-img{
+	text-align: center;
+	
+}
+
+.body-03-img img{
+	margin-top: 40px;
+}
+.body-03-img p{
+	margin-top: 20px;
+	font-size: 16px;
+}
+
+.body-03-img h6{
+	font-weight: 800;
+	
+	margin: 0 auto;
+	margin-top: 5px;
+}
+
+
+
+
+
+/**********************/
+/*body-03 end here */
+/**********************/
+
+
+
+
+
+/**********************/
+/*body-04 start here */
+/**********************/
+.body-04{
+	height: 120vh;
+	width: 100%;
+	background-image: url(15.png);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.body-04-text{
+	text-align: left;
+}
+
+.body-04-text h1{
+	margin-top: 150px;
+	font-weight: 900;
+	color: #2b2b2b;
+}
+
+.body-04-text p{
+	font-size: 16px;
+	width:63%;
+	color: #5e5f60;
+	margin-top: 20px;
+}
+
+.counter01 h1{
+	font-weight: 900;
+	margin-top: 50px;
+	color: #ff660d;
+}
+
+.counter01 p{
+	font-size: 13px;
+}
+
+
+/**********************/
+/*body-04 end here */
+/**********************/
+
+
+
+
+/**********************/
+/*body-05 start here */
+/**********************/
+.body-05{
+	width: 100%;
+}
+
+
+.body-05-haeader{
+	text-align: center;
+}
+
+.body-05-haeader h1{
+	font-weight: 900;
+	margin-top: 100px;
+}
+
+
+/**********************/
+/*body-05 end here */
+/**********************/
+
+
+
+
+/**********************/
+/*body-06 start here */
+/**********************/
+.body-06{
+	width: 100%;
+	padding: 40px;
+	padding-bottom:100px;
+}
+
+.slaid{
+	text-align: center;
+}
+
+.slaid .tex{
+	font-weight: bold;
+}
+
+.slaid p{
+	font-size: 14px;
+	width: 57%;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+
+
+.owl-carousel .owl-item img{
+	display: block;
+	width: 10%;
+	margin: 0 auto;
+}
+
+.owl-nav{
+	display: none;
+}
+
+.owl-dots{
+	margin-top: 10px;
+}
+
+
+/**********************/
+/*body-06 end here */
+/**********************/
+
+
+
+/**********************/
+/*body-07 start here */
+/**********************/
+.body-07{
+	background-color: #2f2f2f;
+	width: 100%;
+	padding: 70px 0px;
+}
+
+.futter-info h1{
+	color: white;
+	font-weight: 900;
+	margin-left: 50px;
+}
+
+.futter-info ul li a i{
+	color: #ff600a;
+
+}
+
+
+.futter-info ul li a{
+	text-decoration: none;
+	color: #979797;
+	font-size: 15px;
+    margin: 0 auto;
+}
+
+
+.futter-info ul li{
+	margin-top: 20px;
+	margin-left: 50px;
+	list-style: none;
+}
+
+.futter-info ul{
+	margin-top: 20px;
+}
+
+.futter-info i{
+	margin-right: 20px;
+}
+
+.manu ul li{
+	list-style: none;
+	display: inline-block;
+	margin-left: 15px;
+}
+
+.manu ul li i{
+	color: #979797;
+	font-size: 25px;
+	
+}
+
+.manu{
+	margin-left: 30px;
+	margin-top: 30px;
+}
+/**********************/
+/*body-07 end here */
+/**********************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+  //CSS
+  
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  //CSS
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  .header{
+  	height: auto;
+  }
+
+  .header-button{
+  	margin-top: 0px;
+  }
+
+  .banner-title h5{
+  	margin-top: 10px;
+  }
+
+  .header-button p {
+  	width: 95%;
+}
+
+.header-button button{
+	padding: 7px 20px;
+	margin-left: 30px;
+}
+
+.header-button{
+	padding-bottom: 30px;
+}
+
+.body-04{
+	height: auto;
+}
+
+.body-04-text h1{
+	margin-top: 30px;
+	font-size: 20px;
+}
+
+.body-04-text p{
+	font-size: 12px;
+	margin-top: 5px;
+	width: 80%;
+}
+
+.counter01 h1{
+	margin-top: 0px;
+}
+
+
+.counter01{
+	padding-bottom: 50px;
+}
+
+
+.body-05-haeader h1{
+	margin-top: 30px;
+}
+
+.body-06{
+	padding-bottom: 30px;
+}
+
+
+.futter-info h1{
+	font-size: 25px;
+}
+
+
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  //CSS
+  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  //CSS
+  
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+ .header{
+ 	height: auto;
+ }
+
+ 
+
+ .header-button{
+ 	margin-top: 20px;
+ }
+
+ .navbar-brand img{
+ 	width: 50%;
+ }
+
+
+ .header-button p{
+ 	width: 85%;
+ 	margin: 0px;
+ 	margin-left: 10px;
+ }
+
+ .header-button button{
+ 	padding: 5px 15px;
+ }
+
+
+ .header-button{
+ 	padding-bottom: 10px;
+ 	margin-left: 20px;
+ }
+
+
+ .body-01{
+ 	padding: 0px;
+ }
+
+ .body-01-header h1{
+ 	font-size: 25px;
+ 	margin-top: 20px;
+ }
+
+ .body-01-header p{
+ 	width: 85;
+ }
+
+ .body-01-img img{
+ 	margin-top: 30px;
+ }
+
+ .body-03{
+ 	padding: 0px;
+ }
+
+ .body-04{
+ 	height: auto;
+ }
+
+
+ .body-04-text h1{
+ 	margin-top: 10px;
+ 	font-size: 18px;
+ }
+
+ .body-04-text p{
+ 	font-size: 10px;
+ 	width: 100%;
+ }
+
+
+ .counter01 h1{
+ 	margin-top: 5px;
+ 	font-size: 25px;
+ }
+
+ .navbar{
+ 	justify-content: center;
+ }
+  
+}
